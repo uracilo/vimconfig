@@ -1,13 +1,13 @@
 install the plugins 
 
-bash'''
+'''cosole
 vim +PluginInstall +qall
 '''
 
 
 update vim 
 
-bash'''
+'''console
 git clone https://github.com/vim/vim.git
 cd vim/src
 make
