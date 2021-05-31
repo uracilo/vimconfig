@@ -3,16 +3,16 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
-call vundle#begin()
+call plug#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'valloric/youcompleteme'
-Plugin 'kaicataldo/material.vim'
-Plugin 'cormacrelf/vim-colors-github'
-Plugin 'vim-python/python-syntax'
+Plug 'VundleVim/Vundle.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'valloric/youcompleteme'
+Plug 'kaicataldo/material.vim'
+Plug 'cormacrelf/vim-colors-github'
+Plug 'vim-python/python-syntax'
 
-call vundle#end()
+call plug#end()
 
 syntax on
 
